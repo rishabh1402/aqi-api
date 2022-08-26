@@ -60,7 +60,7 @@
     <div class="banner">
       <div class="container">
         <h2 class="font-weight-semibold"><span>AIR QUALITY</span> <br> INDEX</h2><br>
-        <div id="chart1" class='chart1' style="background-color:#d3d3d3;></div>
+        <div id="chart1" class='chart1'></div>
           <br />
         </div>
         <p class="text"> AQI: {{ aqi }} </p>
@@ -90,7 +90,9 @@
   <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
   <script type='text/javascript'>
     var graphs = {{graphJSON | safe}};
-    Plotly.plot('chart1',graphs,{});
+    Plotly.plot('chart1',graphs,{
+                                 paper_bgcolor: 'rgba(0,0,0,0)',
+                                  plot_bgcolor: 'rgba(0,0,0,0)'});
   </script>
 
 </html>
