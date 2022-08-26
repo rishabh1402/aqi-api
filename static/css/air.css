@@ -1,0 +1,74 @@
+.navbar{
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+    
+    background-color: rgba(244, 239, 239, 0.918);
+  }
+
+.banner{
+    position: absolute;
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: transparent !important;
+    color: azure;
+}
+.main{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(10, 70, 37, 0.445),rgba(4, 9, 30, 0.774)), url(https://i.pinimg.com/originals/21/f6/24/21f62453ce92003ba18cf9708d92551d.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .banner .container form{
+    margin:2rem auto;
+    padding:4rem;
+    background:rgba(255,255,255,.1);
+    backdrop-filter: blur(.4rem);
+    box-shadow: 0 .3rem .5rem rgba(51, 43, 43, 0.705);
+    text-align: center;
+    border-radius: .5rem;
+}
+
+.banner .container form .inputBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+}
+
+.banner .container h2 {
+    color: rgb(201, 201, 201);
+    font-size: 50px;
+}
+
+.banner .container span{
+    color: rgb(255, 162, 75);
+}
+
+.banner .container form .inputBox input, select{
+    height:3rem;
+    width: 150%;
+    align-self: center;
+    background:rgb(209, 209, 209);
+    color:rgb(255, 138, 60);
+    padding:0 1rem;
+    margin:1rem 0;
+    font-size: 1rem;
+    outline: none;
+    border:none;
+    border-radius: 5rem;
+}
+
+.banner .container form input[type="submit"]{
+    color:rgb(255, 146, 56);
+    border-color: #fff;
+    background-color: rgba(0, 0, 0, 0.623);
+    border-radius: 5px;
+}
+
+.banner .container form input[type="submit"]:hover{
+    color:var(--green);
+    border-color: var(--green);
+    background:#fff;
+}

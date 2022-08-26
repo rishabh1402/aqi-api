@@ -1,0 +1,54 @@
+.navbar{
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+    background-color: rgba(244, 239, 239, 0.721);
+  }
+
+  .banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: transparent !important;
+    color: azure;
+  }
+  .main{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(10, 70, 37, 0.445),rgba(4, 9, 30, 0.774)), url(https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A04a376d6-f986-11e8-af46-2022a0b02a6c?source=ig);
+    background-position: center;
+    background-size: cover;
+  }
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  .img-icons{
+    width: 150px;
+  }
+  .i3{
+    height: 150px;
+    width: 210px;
+  }
+  .features-width p{
+    text-align: justify;
+  }
+  .ed{
+    margin-left: -1.65rem !important;
+  }
+  .steps{
+    display: grid !important;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    justify-content: space-between;
+    gap: 6rem;
+  }
+  .features-width{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .steps .text-muted{
+    color: rgb(74, 104, 255) !important;
+  }
+  .steps h5{
+    color: rgb(255, 93, 39);
+  }
